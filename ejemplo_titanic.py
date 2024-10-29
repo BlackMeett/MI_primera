@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 
 # Carga el archivo CSV "database_titanic.csv" en un DataFrame de pandas.
 df = pd.read_csv("database_titanic.csv")
+st.title("Este e el titulo ma malveke")
 
 # Muestra un título y una descripción en la aplicación Streamlit.
 st.write("""
